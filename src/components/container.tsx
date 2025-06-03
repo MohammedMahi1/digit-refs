@@ -6,12 +6,12 @@ type ConatinerProps = {
 }
 
 
-const container = ({children}:ConatinerProps) => {
+const Container = ({children}:ConatinerProps) => {
   return (
-    <div className=''>
+    <div className='px-40'>
         {children}
     </div>
   )
 }
 
-export default container
+export default Container
