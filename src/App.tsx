@@ -1,9 +1,13 @@
 import Container from "./components/container"
+import Spline from '@splinetool/react-spline';
 function App() {
+
+
 
   return (
     <Container>
-      <spline-viewer url="undefined"></spline-viewer>
+    <Spline scene="https://prod.spline.design/8gbTXoJtxShWkjKV/scene.splinecode" className="!w-100"/>
+
     </Container>
   )
 }
